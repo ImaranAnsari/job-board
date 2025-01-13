@@ -1,7 +1,6 @@
 import { Request, Response } from 'express';
 import { insert, get, update, jobDelete } from '../models/job';
 
-//create
 export const createJob = async (req: Request, res: Response) => {
 
     try {
@@ -21,7 +20,6 @@ export const getJobs = async (req: Request, res: Response) => {
     try {
 
         let data = await get();
-        console.log('data', data);
         if (data) {
             res.send({ status: "success", data: data, message: "Jobs fetched successfully" });
         } else {
