@@ -1,8 +1,8 @@
 # job-board
 
-NxtJob Internship Task
+Nodejs, Typescript, MySql Database
 
-to run this project
+To run this project
 
 run command
 1 yarn install
@@ -10,4 +10,4 @@ run command
 run query which is in database folder
 
 to run API
-go to api folder where it documented
+go to api folder where it is documented.
